@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dw5uzflen/image/upload/v1710568288/Sunny_and_warm_cru3vi.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+}
+
+.top-heading {
+    color: #ff0000;
+    font-family: "bree serif";
+}
+
+.card-container {
+    border-style: solid;
+    margin: 20px;
+    border-color: yellow;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.city-name {
+    color: #66ff66;
+    font-family: "roboto";
+    margin-bottom: 10px;
+}
+
+.celcius {
+    color: yellow;
+}
+
+.report-head {
+    font-family: "roboto";
+    font-size: 27px;
+    margin-top: 20px;
+    color: yellow;
+}
+
+.report-para {
+    font-family: "roboto";
+    color: #ffffff;
+    text-align: left;
+}
+
+.input-style {
+    height: 40px;
+    border-radius: 10px;
+}
