@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dw5uzflen/image/upload/v1711088899/Bg_image_zqhcgs.jpg");
+    background-size: cover;
+    width: 100vw;
+    overflow: auto;
+}
+
+.navbar-texts {
+    color: #000033;
+    font-family: "bree serif";
+}
+
+.navbar-heading {
+    color: #000033;
+    font-family: "bree serif";
+    font-size: 25px;
+}
+
+.home-heading {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 35px;
+}
+
+.my-name {
+    color: #66ffff;
+}
+
+.about-para {
+    color: #f2f2f2;
+    font-family: "roboto";
+    font-size: 13px;
+}
+
+.aboutme-paragraph {
+    color: #e6f7ff;
+    font-family: "roboto";
+    font-size: 17px;
+}
+
+.my-image {
+    max-height: 250px;
+    height: 200px;
+    min-height: 150px;
+    border-radius: 40px;
+    max-width: 250px;
+    width: 200px;
+    min-width: 150px;
+}
+
+#sectionHome {
+    height: 100vh;
+}
+
+.section-headings {
+    color: #ffffff;
+    font-family: "bree serif";
+    font-size: 35px;
+    margin: auto;
+}
+
+.skill-paras {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 13px;
+}
+
+.sub-heading {
+    color: #cce6ff;
+    font-family: "roboto";
+    font-size: 25px;
+    margin: auto;
+}
+
+.contact-heading {
+    color: #66ffff;
+    font-family: "roboto";
+    font-size: 25px;
+    margin: auto;
+}
+
+.project-heading {
+    color: #003366;
+    font-family: "roboto";
+    font-size: 25px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.card-container {
+    background-color: #e6f2ff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.project-description {
+    color: #00004d;
+    font-family: "roboto";
+    font-size: 13px;
+}
+
+.project-skills {
+    color: #00004d;
+    font-family: "roboto";
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.project-button {
+    color: #00004d;
+    font-family: "roboto";
+    font-size: 15px;
+}
+
+.certificates {
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.images {
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+}
+
+
+.paragraph {
+    color: #9aa5b1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bottom-background {
+    background-color: #001c32;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.frontend-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
